@@ -1287,7 +1287,7 @@ PrefabInstance:
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.47
+      value: -2.15
       objectReference: {fileID: 0}
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
@@ -1336,28 +1336,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f253385c141aa04438f62935ab29c119, type: 3}
---- !u!1 &208651469 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5531619919916779959, guid: f253385c141aa04438f62935ab29c119,
-    type: 3}
-  m_PrefabInstance: {fileID: 208651468}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &208651470
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208651469}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: d95e0413e73b912478b8a77b78ff1ced, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &225497459
 GameObject:
   m_ObjectHideFlags: 0

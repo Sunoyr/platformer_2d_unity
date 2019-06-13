@@ -11022,7 +11022,7 @@ PrefabInstance:
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.82
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
@@ -11071,25 +11071,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f253385c141aa04438f62935ab29c119, type: 3}
---- !u!1 &5531619920277056799 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5531619919916779959, guid: f253385c141aa04438f62935ab29c119,
-    type: 3}
-  m_PrefabInstance: {fileID: 5531619920277056798}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &5531619920277056800
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5531619920277056799}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 45de674039f46184c8386f0fc65ac2d4, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
