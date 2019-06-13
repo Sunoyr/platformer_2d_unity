@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: efe76c2583eb965429d05c7afe79631e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -11022,7 +11022,7 @@ PrefabInstance:
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.97
+      value: 1.131
       objectReference: {fileID: 0}
     - target: {fileID: 5531619919916779952, guid: f253385c141aa04438f62935ab29c119,
         type: 3}
@@ -11071,3 +11071,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f253385c141aa04438f62935ab29c119, type: 3}
+--- !u!1 &5531619920277056799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5531619919916779959, guid: f253385c141aa04438f62935ab29c119,
+    type: 3}
+  m_PrefabInstance: {fileID: 5531619920277056798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5531619920277056800
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5531619920277056799}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4cdb1daeb48e6d847a6800aee7736f7f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
