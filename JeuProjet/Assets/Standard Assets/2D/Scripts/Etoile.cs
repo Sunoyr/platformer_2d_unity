@@ -10,11 +10,13 @@ public class Etoile : MonoBehaviour
     {
         if (col.CompareTag("Player") && pris)
         {
-            Destroy(gameObject);
             var text = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
             var oldscore = int.Parse(text.text);
             text.text = (oldscore + 10).ToString();
             pris = false;
+            GetComponent<AudioSource>().Play();
+            GetComponent<Renderer>().enabled = false;
+            Destroy(gameObject, 1.0f);
         }
     }
 }
